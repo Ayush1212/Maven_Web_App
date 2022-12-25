@@ -17,6 +17,32 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>  
+    <repository>
+      <id>nexus</id>
+      <name>Ashok IT Releases Nexus Repo</name>
+      <url><distributionManagement>  
+	<repository>
+		<id>nexus</id>
+		<name>01-maven Releases Nexus Repo</name>
+		<url>http://20.193.147.56:8081/repository/01-maven-Release/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>01-maven Snapshots Nexus Repo</name>
+		<url>http://20.193.147.56:8081/repository/01-maven-snapshot/</url>
+	</snapshotRepository>	
+</distributionManagement></url>
+    </repository>
+    
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Ashok IT Snapshots Nexus Repo</name>
+      <url>http://15.207.19.102:8081/repository/ashokit-snapshot-repository/</url>
+    </snapshotRepository>	
+  </distributionManagement>
+
   <build>
     <finalName>01-maven-web-app</finalName>
   </build>
